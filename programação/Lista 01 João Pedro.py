@@ -133,3 +133,75 @@ print(f"{numero}")
 
 for i in range(2,numero + 1, 2):
     print(f"{i}")
+
+#exercicio 16 
+
+numero = int(input("Digite um numero: "))
+
+if numero % 2 == 0:
+    print("O numero é par")
+else: 
+    print("O numero é impar")
+
+#exercicio 17 
+
+for i in range(1, 20 + 1):
+    if i % 2 == 0:
+        print(i)
+
+#exercicio 18 
+
+numero = int(input("Digite um numero: "))
+
+if numero % 5 == 0:
+    print("é divisivo por 5")
+else:
+    print("não é divisivo por 5")
+
+#Strings
+
+#exercicio 19 
+
+palavra = str(input("Digite uma palavra: "))
+
+if palavra == "Python":
+    print("Você digitou Python")
+else:
+    print("Você digitou outra palavra")
+
+#exercicio 20
+
+nome = str(input("Digite seu nome: "))
+idade = int(input("Digite sua idade: "))
+nota = float(input("Digite sua nota: "))
+
+if idade  >=18:
+    print("Situação: Você é maior de idade")
+else: 
+    print("Situação: Você é menor de idade")
+if nota >=7:
+    print("Resultado: Aprovado")
+else:
+    print("Resultado: reprovado")
+
+#Parte extra - explique seu codigo
+
+#exercicio 1
+
+#Primeiro peço o nome do usuario.
+#Segundo peço a idade do usuario.
+#Por fim, mostro resultado na tela sendo ele o nome e a idade.
+
+#exercicio 17
+
+#primeiro faço um programa roda 1 a 20.
+#Segundo faço ele separ os pares.
+#Por fim, mostro o resultado na tela de 1 a 20 sendo somente de numeros pares.
+
+#exercicio 20
+
+#Primeiro peço o nome do usuario.
+#Segundo peço a idade do usuario.
+#Terceiro peço a nota do usuario. 
+#Depois verifico se ele é de maior ou de menor.
+#Por fim, verifico se o usuario está aprovado ou reprovado.
